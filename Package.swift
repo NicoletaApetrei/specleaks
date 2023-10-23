@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "SpecLeaks",    
     platforms: [
-      .iOS(.v10)
+      .iOS(.v12)
     ],
     products: [        
         .library(name: "SpecLeaks", targets: ["SpecLeaks"]),
